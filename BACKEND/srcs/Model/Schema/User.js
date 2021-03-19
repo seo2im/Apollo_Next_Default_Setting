@@ -6,7 +6,7 @@
 import { model, Schema }from 'mongoose'
 
 const User = new Schema({
-    Id: { type: String, required: true, unique: true},
+    id: { type: String, required: true, unique: true},
     password: { type: String, required: true },
 })
 

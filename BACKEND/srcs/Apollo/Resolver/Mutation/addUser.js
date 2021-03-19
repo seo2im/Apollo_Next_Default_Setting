@@ -1,10 +1,9 @@
 import { User } from '../../../Model/Schema'
 
-const addUser = async (_, { login, password }) => {
+const addUser = async (_, { id, password }) => {
     try {
-        
         const user = new User({ 
-            login: login, 
+            id: id, 
             password: password,
         })                
         const result = await user.save();

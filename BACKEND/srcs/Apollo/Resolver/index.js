@@ -1,5 +1,5 @@
-import Query from './resolver/Query'
-import Mutation from './resolver/Mutation'
+import Query from './Query'
+import Mutation from './Mutation'
 
 export default {
     Query,

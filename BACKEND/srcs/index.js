@@ -1,6 +1,6 @@
 import { ApolloServer } from 'apollo-server'
-import resolvers from './Apollo/resolver'
-import typeDefs from './Apollo/schema'
+import resolvers from './Apollo/Resolver'
+import typeDefs from './Apollo/Schema'
 import { AutoWork } from './Apollo/Schedule'
 import dbConnect from './Model'
 

@@ -15,6 +15,6 @@ export default gql`
 
     # Mutation
     type Mutation {
-        addUser(login: String!, password: String!): User
+        addUser(id: String!, password: String!): User
     }
 `
