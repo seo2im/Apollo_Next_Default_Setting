@@ -5,3 +5,4 @@ BACKEND/init.sh
 FRONTEND/node_modules
 FRONTEND/package-lock.json
 FRONTEND/init.sh
+FRONTEND/.next
