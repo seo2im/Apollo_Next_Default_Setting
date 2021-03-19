@@ -1,0 +1,7 @@
+BACKEND/node_modules
+BACKEND/package-lock.json
+BACKEND/init.sh
+
+FRONTEND/node_modules
+FRONTEND/package-lock.json
+FRONTEND/init.sh
