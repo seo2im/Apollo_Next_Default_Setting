@@ -5,6 +5,8 @@
 This repository is for making BackEnd / FrontEnd basic setting when make default web service.
 
 ## BACKEND
+### 구성
+`ApolloServer`, `mongoose`, `javascript`(typescript로 변경 예정), `eslint`(추가 예정)
 
 ### 사전 준비
 1. 개인의 MongoDB를 가지고 있어야 합니다.
@@ -17,6 +19,9 @@ npm install ; npm start
 ```
 
 서비스 실행 후 `gql playground`(http://localhost:4000/graphql)에서 본인의 query/mutation을 실행해 볼 수 있습니다. 사용법은 [여기](https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/)를 참고하시기 바랍니다.
+
+### Spec
+`ApolloServer`, `mongoose`, `javascript`(To be changed to typescript), `eslint`(To be updated)
 
 ### Preference
 1. Must have personal mongoDB.
@@ -31,10 +36,14 @@ When start service, exec your query / mutation in `gql playground`(http://localh
 
 ## FRONTEND
 
+### 구성
+`React` ,`Next`, `typescript`, `eslint`, `apolloClient`, `styled-components`
+
 ### 주의사항
 1. React와 Next에 대한 최소한의 기본지식이 있음을 가정하고 만들어졌다.
 2. **ApolloClient**를 `Hook`의 형태로 구성해 두었으나 `getStaticProps`이나 `getServerSideProps`에서 사용하고 싶다면 apolloClient를 그대로 사용하면 된다. [여기](https://www.apollographql.com/blog/getting-started-with-apollo-client-in-next-js/)를 참고하자.
 3. ApolloServer의 주소를 변경했다면 apolloClient의 url를 변경하는것을 잊지말자.
+4. `eslint`가 설정되어 있으며 기본 셋팅에 tab과 같은 설정만 수정되어있다. 
 
 ### 실행
 ```bash
@@ -47,6 +56,7 @@ npm install ; npm start
 1. Assume you know basic acknowledge of React & Next.
 2. Use **ApolloClient** with `Hook` style, but you want to use ApolloClient in `getStaticProps` or `getServerSideProps`, use just apolloClient. refer to [this](https://www.apollographql.com/blog/getting-started-with-apollo-client-in-next-js/)
 3. Don't forget if you change ApolloServer's address, have to change apolloClient url.
+4. Set `eslint`, default setting but modified tab, etc.
 
 ### RUN
 ```bash
