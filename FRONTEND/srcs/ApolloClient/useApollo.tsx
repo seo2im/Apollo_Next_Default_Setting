@@ -1,3 +1,7 @@
+/*
+    reference    
+    : https://www.apollographql.com/blog/getting-started-with-apollo-client-in-next-js/
+*/
 import { useMemo } from 'react'
 import { ApolloClient, HttpLink, InMemoryCache, NormalizedCacheObject } from '@apollo/client'
 import merge from 'deepmerge'

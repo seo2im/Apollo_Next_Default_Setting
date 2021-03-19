@@ -11,8 +11,11 @@ import { UsersSave } from '../../Redux/REDUCER/Users'
     so use Hook or api in this
 */
 const Container = () => {
+    /* useApollo with Hook style */
     const apolloCleint = useApollo()
+    /* use Next-router, linking other pages */
     const router = useRouter()
+    /* dispatch Hook in react-redux */
     const dispatch = useDispatch()
 
     const link = (url: string) => {

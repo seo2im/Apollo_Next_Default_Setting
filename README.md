@@ -28,3 +28,29 @@ npm install ; npm start
 ```
 
 When start service, exec your query / mutation in `gql playground`(http://localhost:4000/graphql). Refer to [this](https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/) for guide of this
+
+## FRONTEND
+
+### 주의사항
+1. React와 Next에 대한 최소한의 기본지식이 있음을 가정하고 만들어졌다.
+2. **ApolloClient**를 `Hook`의 형태로 구성해 두었으나 `getStaticProps`이나 `getServerSideProps`에서 사용하고 싶다면 apolloClient를 그대로 사용하면 된다. [여기](https://www.apollographql.com/blog/getting-started-with-apollo-client-in-next-js/)를 참고하자.
+3. ApolloServer의 주소를 변경했다면 apolloClient의 url를 변경하는것을 잊지말자.
+
+### 실행
+```bash
+npm install ; npm start
+```
+
+반드시 BACKEND를 실행한 상태로 진행한다.
+
+### Caution
+1. Assume you know basic acknowledge of React & Next.
+2. Use **ApolloClient** with `Hook` style, but you want to use ApolloClient in `getStaticProps` or `getServerSideProps`, use just apolloClient. refer to [this](https://www.apollographql.com/blog/getting-started-with-apollo-client-in-next-js/)
+3. Don't forget if you change ApolloServer's address, have to change apolloClient url.
+
+### RUN
+```bash
+npm install ; npm start
+```
+
+Must run BACKEND first
